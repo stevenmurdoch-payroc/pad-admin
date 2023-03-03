@@ -1,0 +1,23 @@
+{
+  "TerminalId": "SPEC",
+  "BankId": "123",
+  "BranchNumber": "12345",
+  "AccountNumber": "1234567",
+  "TransFee": "5.00",
+  "BasisPoints": "5",
+  "RejectFee": "5.00",
+  "ReturnFee": "5.00",
+  "CreditDelayDays": "1",
+  "CreditThreshold": "5.00",
+  "FundingDelayDays": "1",
+  "MerchantDescription": "Desc",
+  "Address": "123rd Street",
+  "SetupFee": "5.00",
+  "DepositAmount": "5.00",
+  "PadMaxThresAmount": "1000.00",
+  "PadMaxMonthlyTransCount": "999999",
+  "PadMaxMonthlyVolume": "9999999.99",
+  "EftMaxThresAmount": "1000.00",
+  "EftMaxMonthlyTransCount": "999999",
+  "EftMaxMonthlyVolume": "9999999.99"
+}

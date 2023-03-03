@@ -1,0 +1,16 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=00d6bce0_002D6b00_002D4de3_002D8120_002Dc055a740ad7e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Edit a Company" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::0B9C639A-4973-4129-9904-4CF4589EEF73::net6.0::caledon_pad_admin_tests.Features.CompanyFeature.EditACompany&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::0B9C639A-4973-4129-9904-4CF4589EEF73::net6.0::caledon_pad_admin_tests.Features.MerchantFeature.AddAMerchant&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::0B9C639A-4973-4129-9904-4CF4589EEF73::net6.0::caledon_pad_admin_tests.Features.LoginToPADAdminFeature.UserCanLogIntoPADAdminWithValidCredentials&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d8a19a37_002Df593_002D49dd_002D938e_002D42506ddc2505/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="User can log into Transaction Lookup with valid credentials" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::0B9C639A-4973-4129-9904-4CF4589EEF73::net6.0::caledon_pad_admin_tests.Features.CompanyFeature.AddACompany&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::0B9C639A-4973-4129-9904-4CF4589EEF73::net6.0::caledon_pad_admin_tests.Features.CompanyFeature.EditACompany&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::0B9C639A-4973-4129-9904-4CF4589EEF73::net6.0::caledon_pad_admin_tests.Features.LoginToPADAdminFeature.UserCanLogIntoPADAdminWithValidCredentials&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::0B9C639A-4973-4129-9904-4CF4589EEF73::net6.0::caledon_pad_admin_tests.Features.CompanyFeature&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

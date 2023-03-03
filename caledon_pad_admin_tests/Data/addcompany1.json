@@ -1,0 +1,43 @@
+{
+  "CompanyId": "SpecCompany",
+  "CompanyName": "SpecCompany",
+  "Email": "test@example.com",
+  "PhoneFirst": "123",
+  "PhoneSecond": "123",
+  "PhoneThird": "1234",
+  "PhoneExt": "12345",
+  "ApatoId": "1",
+  
+  "PadBankId": "123",
+  "PadBranchNumber": "12345",
+  "PadAccountNumber": "1234567",
+  "PadTransFee": "1.00",
+  "PadBasisPoints": "123",
+  "PadRejectFee": "1.00",
+  "PadReturnFee": "1.00",
+  "PadMerchantCreditDescriptor": "111",
+
+  "DbpBankId": "123",
+  "DbpBranchNumber": "12345",
+  "DbpAccountNumber": "1234567",
+  "DbpTransFee": "1.00",
+  "DbpRejectFee": "1.00",
+  "DbpReturnFee": "1.00",
+  "DbpMerchantCreditDescriptor": "111",
+
+  "ChqBankId": "123",
+  "ChqBranchNumber": "12345",
+  "ChqAccountNumber": "1234567",
+  "ChqTransFee": "1.00",
+  "ChqRejectFee": "1.00",
+  "ChqReturnFee": "1.00",
+  "ChqMerchantCreditDescriptor": "111",
+
+  "EftBankId": "123",
+  "EftBranchNumber": "12345",
+  "EftAccountNumber": "1234567",
+  "EftTransFee": "1.00",
+  "EftRejectFee": "1.00",
+  "EftReturnFee": "1.00",
+  "EftMerchantCreditDescriptor": "111"
+}
