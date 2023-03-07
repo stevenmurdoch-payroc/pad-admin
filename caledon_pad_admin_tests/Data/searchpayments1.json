@@ -1,0 +1,23 @@
+{
+  "TerminalId": "BPQATEST",
+  "Amount": "",
+  "InsertDate": "",
+  "InsertEndDate": "",
+  "DebitTransDate": "",
+  "DebitTransEndDate": "",
+  "CreditPaymentDate": "",
+  "CreditPaymentEndDate": "",
+  "TransactionReferenceNumber": "",
+  "ClientId": "",
+  "BankId": "",
+  "BankTransitNumber": "",
+  "BankAccountNumber": "",
+  "ChargeDescription": "",
+  "RejectCode": "",
+  "RejectDate": "",
+  "ReturnItemCode": "",
+  "ReturnItemDate": "",
+  "DebitFileId": "",
+  "EffectiveDate": "",
+  "EffectiveEndDate": ""
+}

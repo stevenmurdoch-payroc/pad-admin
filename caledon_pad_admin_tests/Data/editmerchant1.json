@@ -1,0 +1,21 @@
+{
+  "TerminalId": "SPEC",
+  "Description": "",
+  "BankId": "123",
+  "BranchNumber": "12345",
+  "AccountNumber": "1234",
+  "CreditDelayDays": "1",
+  "CreditThreshold": "5.00",
+  "FundingDelayDays": "1",
+  "HoldPendingSuspendReason": "Reason",
+  "HoldPendingSuspendDate": "",
+  "SetupFee": "5.00",
+  "DepositAmount": "5.00",
+  "PadMaxThresAmount": "",
+  "PadMaxMonthlyTransCount": "",
+  "PadMaxMonthlyVolume": "",
+  "EftMaxThresAmount": "",
+  "EftMaxMonthlyTransCount": "",
+  "EftMaxMonthlyVolume": ""
+}
+
