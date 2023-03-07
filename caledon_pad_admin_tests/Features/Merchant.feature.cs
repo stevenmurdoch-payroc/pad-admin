@@ -123,12 +123,12 @@ namespace caledon_pad_admin_tests.Features
 #line 8
         testRunner.When("the user navigates to the Add Merchant Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
                             "dataFile"});
-                table3.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "addmerchant1.json"});
 #line 9
-        testRunner.And("the user fills out the Add Merchant Page", ((string)(null)), table3, "And ");
+        testRunner.And("the user fills out the Add Merchant Page", ((string)(null)), table5, "And ");
 #line hidden
 #line 12
         testRunner.And("submits the Add Merchant request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -143,9 +143,11 @@ namespace caledon_pad_admin_tests.Features
         [Xunit.SkippableFactAttribute(DisplayName="Edit a Merchant")]
         [Xunit.TraitAttribute("FeatureTitle", "Merchant")]
         [Xunit.TraitAttribute("Description", "Edit a Merchant")]
+        [Xunit.TraitAttribute("Category", "wip")]
         public virtual void EditAMerchant()
         {
-            string[] tagsOfScenario = ((string[])(null));
+            string[] tagsOfScenario = new string[] {
+                    "wip"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Edit a Merchant", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 16
@@ -174,12 +176,12 @@ namespace caledon_pad_admin_tests.Features
 #line 17
         testRunner.When("the user navigates to the Edit Merchant Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
                             "dataFile"});
-                table4.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "editmerchant1.json"});
 #line 18
-        testRunner.And("the user fills out the Edit Merchant Page", ((string)(null)), table4, "And ");
+        testRunner.And("the user fills out the Edit Merchant Page", ((string)(null)), table6, "And ");
 #line hidden
 #line 21
         testRunner.And("submits the Edit Merchant request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");

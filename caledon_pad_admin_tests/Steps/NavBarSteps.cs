@@ -42,4 +42,44 @@ public class NavBarSteps
         await _navBarPage.ClickMerchantMenuOption();
         await _navBarPage.ClickAddMerchantOption();
     }
+
+    [When(@"the user navigates to the Edit Merchant Page")]
+    public async Task WhenTheUserNavigatesToTheEditMerchantPage()
+    {
+        await _navBarPage.ClickMerchantMenuOption();
+        await _navBarPage.ClickEditMerchantOption();
+    }
+
+    [When(@"the user navigates to the Search Merchant EFT Page")]
+    public async Task WhenTheUserNavigatesToTheSearchMerchantEftPage()
+    {
+        await _navBarPage.ClickEftMenuOption();
+        await _navBarPage.ClickSearchMerchantEftOption();
+    }
+
+    [When(@"the user navigates to the Search Payments Page")]
+    public async Task WhenTheUserNavigatesToTheSearchPaymentsPage()
+    {
+        await _navBarPage.ClickSearchPaymentsMenuOption();
+    }
+
+    [When(@"the user navigates to the Search Pending Payments Page")]
+    public async Task WhenTheUserNavigatesToTheSearchPendingPaymentsPage()
+    {
+        await _navBarPage.ClickSearchPendingPaymentsMenuOption();
+    }
+
+    [When(@"the user navigates to the Add Adjustments Page")]
+    public async Task WhenTheUserNavigatesToTheAddAdjustmentsPage()
+    {
+        await _navBarPage.ClickAdjustmentMenuOption();
+        await _navBarPage.ClickAddAdjustmentOption();
+    }
+
+    [When(@"the user navigates to the View Adjustments Page")]
+    public async Task WhenTheUserNavigatesToTheViewAdjustmentsPage()
+    {
+        await _navBarPage.ClickAdjustmentMenuOption();
+        await _navBarPage.ClickViewAdjustmentOption();
+    }
 }

@@ -73,7 +73,7 @@ public class EditCompanyPage : BasePage
     public async Task ConfirmAddedCompanyMessage()
     {
         await Page.ScreenshotAsync(new PageScreenshotOptions
-            { Path = _screenshotHelper.ScreenShotFilePath("add_company_confirmation.png") });
+            { Path = _screenshotHelper.ScreenShotFilePath("edit_company_confirmation.png") });
 
         var feedbackText =
             await Page.EvalOnSelectorAsync<string>("#editComp_msgDiv > em > font > b", "el => el.innerText");

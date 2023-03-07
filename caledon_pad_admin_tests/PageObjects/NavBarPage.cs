@@ -36,4 +36,44 @@ public class NavBarPage : BasePage
     {
         await Page.GotoAsync("https://web-dev.caledoncard.com/cgi-bin/padpayment/add_merchant.cgi");
     }
+
+    public async Task ClickEditMerchantOption()
+    {
+        await Page.GotoAsync("https://web-dev.caledoncard.com/cgi-bin/padpayment/edit_merchant.cgi");
+    }
+
+    public async Task ClickEftMenuOption()
+    {
+        await Page.ClickAsync("#menu > li:nth-child(3) > a");
+    }
+
+    public async Task ClickSearchMerchantEftOption()
+    {
+        await Page.GotoAsync("https://web-dev.caledoncard.com/cgi-bin/padpayment/search_merchant_eft.cgi");
+    }
+
+    public async Task ClickSearchPaymentsMenuOption()
+    {
+        await Page.ClickAsync("#menu > li:nth-child(4) > a");
+    }
+
+    public async Task ClickSearchPendingPaymentsMenuOption()
+    {
+        await Page.ClickAsync("#menu > li:nth-child(5) > a");
+    }
+
+    public async Task ClickAdjustmentMenuOption()
+    {
+        await Page.ClickAsync("#menu > li:nth-child(6) > a");
+    }
+
+    public async Task ClickAddAdjustmentOption()
+    {
+        await Page.GotoAsync("https://web-dev.caledoncard.com/cgi-bin/padpayment/add_adjustment.cgi");
+    }
+
+    public async Task ClickViewAdjustmentOption()
+    {
+        await Page.GotoAsync("https://web-dev.caledoncard.com/cgi-bin/padpayment/view_adjustment.cgi");
+    }
 }

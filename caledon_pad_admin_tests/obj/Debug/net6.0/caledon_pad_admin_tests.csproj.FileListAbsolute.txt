@@ -425,6 +425,9 @@
 /Users/stevenmurdoch/RiderProjects/caledon_pad_admin_tests/caledon_pad_admin_tests/obj/Debug/net6.0/caledon_pad_admin_tests.pdb
 /Users/stevenmurdoch/RiderProjects/caledon_pad_admin_tests/caledon_pad_admin_tests/obj/Debug/net6.0/caledon_pad_admin_tests.genruntimeconfig.cache
 /Users/stevenmurdoch/RiderProjects/caledon_pad_admin_tests/caledon_pad_admin_tests/obj/Debug/net6.0/ref/caledon_pad_admin_tests.dll
+/Users/stevenmurdoch/RiderProjects/pad-admin/caledon_pad_admin_tests/bin/Debug/net6.0/LivingDoc.Dtos.dll
+/Users/stevenmurdoch/RiderProjects/pad-admin/caledon_pad_admin_tests/bin/Debug/net6.0/LivingDoc.SpecFlowPlugin.dll
+/Users/stevenmurdoch/RiderProjects/pad-admin/caledon_pad_admin_tests/bin/Debug/net6.0/Microsoft.TestPlatform.PlatformAbstractions.dll
 /Users/stevenmurdoch/RiderProjects/pad-admin/caledon_pad_admin_tests/bin/Debug/net6.0/appsettings.json
 /Users/stevenmurdoch/RiderProjects/pad-admin/caledon_pad_admin_tests/bin/Debug/net6.0/appsettings.example.json
 /Users/stevenmurdoch/RiderProjects/pad-admin/caledon_pad_admin_tests/bin/Debug/net6.0/specflow.actions.json
@@ -722,9 +725,6 @@
 /Users/stevenmurdoch/RiderProjects/pad-admin/caledon_pad_admin_tests/bin/Debug/net6.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
 /Users/stevenmurdoch/RiderProjects/pad-admin/caledon_pad_admin_tests/bin/Debug/net6.0/xunit.runner.reporters.netcoreapp10.dll
 /Users/stevenmurdoch/RiderProjects/pad-admin/caledon_pad_admin_tests/bin/Debug/net6.0/xunit.runner.utility.netcoreapp10.dll
-/Users/stevenmurdoch/RiderProjects/pad-admin/caledon_pad_admin_tests/bin/Debug/net6.0/LivingDoc.Dtos.dll
-/Users/stevenmurdoch/RiderProjects/pad-admin/caledon_pad_admin_tests/bin/Debug/net6.0/LivingDoc.SpecFlowPlugin.dll
-/Users/stevenmurdoch/RiderProjects/pad-admin/caledon_pad_admin_tests/bin/Debug/net6.0/Microsoft.TestPlatform.PlatformAbstractions.dll
 /Users/stevenmurdoch/RiderProjects/pad-admin/caledon_pad_admin_tests/bin/Debug/net6.0/TechTalk.SpecFlow.xUnit.SpecFlowPlugin.dll
 /Users/stevenmurdoch/RiderProjects/pad-admin/caledon_pad_admin_tests/bin/Debug/net6.0/caledon_pad_admin_tests.deps.json
 /Users/stevenmurdoch/RiderProjects/pad-admin/caledon_pad_admin_tests/bin/Debug/net6.0/caledon_pad_admin_tests.runtimeconfig.json

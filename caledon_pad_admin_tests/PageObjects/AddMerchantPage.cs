@@ -64,7 +64,7 @@ public class AddMerchantPage : BasePage
     public async Task ConfirmAddedMerchantMessage()
     {
         await Page.ScreenshotAsync(new PageScreenshotOptions
-            { Path = _screenshotHelper.ScreenShotFilePath("add_company_confirmation.png") });
+            { Path = _screenshotHelper.ScreenShotFilePath("add_merchant_confirmation.png") });
 
         var feedbackText =
             await Page.EvalOnSelectorAsync<string>("#message > em > font > b", "el => el.innerText");

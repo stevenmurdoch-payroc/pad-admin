@@ -12,7 +12,7 @@ Add and Edit a Merchant
         And submits the Add Merchant request
         Then the Add Merchant confirmation message is displayed
         
-        
+        @wip
     Scenario: Edit a Merchant
         When the user navigates to the Edit Merchant Page 
         And the user fills out the Edit Merchant Page

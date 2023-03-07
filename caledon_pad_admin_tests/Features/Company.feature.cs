@@ -123,12 +123,12 @@ namespace caledon_pad_admin_tests.Features
 #line 8
  testRunner.When("the user navigates to the Add Company Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
                             "dataFile"});
-                table1.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "addcompany1.json"});
 #line 9
- testRunner.And("the user fills out the Add Company Page", ((string)(null)), table1, "And ");
+ testRunner.And("the user fills out the Add Company Page", ((string)(null)), table3, "And ");
 #line hidden
 #line 12
     testRunner.And("submits the Add Company request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -176,12 +176,12 @@ namespace caledon_pad_admin_tests.Features
 #line 17
   testRunner.When("the user navigates to the Edit Company Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                             "dataFile"});
-                table2.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "editcompany1.json"});
 #line 18
-  testRunner.And("the user fills out the Edit Company Page", ((string)(null)), table2, "And ");
+  testRunner.And("the user fills out the Edit Company Page", ((string)(null)), table4, "And ");
 #line hidden
 #line 21
   testRunner.And("submits the Edit Company request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
