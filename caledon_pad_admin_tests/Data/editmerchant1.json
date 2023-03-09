@@ -1,5 +1,5 @@
 {
-  "TerminalId": "SPEC",
+  "TerminalId": "11111111",
   "Description": "",
   "BankId": "123",
   "BranchNumber": "12345",
@@ -11,11 +11,11 @@
   "HoldPendingSuspendDate": "",
   "SetupFee": "5.00",
   "DepositAmount": "5.00",
-  "PadMaxThresAmount": "",
-  "PadMaxMonthlyTransCount": "",
-  "PadMaxMonthlyVolume": "",
-  "EftMaxThresAmount": "",
-  "EftMaxMonthlyTransCount": "",
-  "EftMaxMonthlyVolume": ""
+  "PadMaxThresAmount": "100.00",
+  "PadMaxMonthlyTransCount": "99999",
+  "PadMaxMonthlyVolume": "99999.00",
+  "EftMaxThresAmount": "100.00",
+  "EftMaxMonthlyTransCount": "99998",
+  "EftMaxMonthlyVolume": "111.00"
 }
 

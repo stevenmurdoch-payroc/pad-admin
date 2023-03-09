@@ -59,6 +59,10 @@ public class EditMerchantPage : BasePage
 
     public async Task ConfirmAddedMerchantMessage()
     {
+        
+        await Page.PauseAsync();
+        
+        
         await Page.ScreenshotAsync(new PageScreenshotOptions
             { Path = _screenshotHelper.ScreenShotFilePath("edit_merchant_confirmation.png") });
 
