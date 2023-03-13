@@ -23,12 +23,11 @@ public class AddAdjustmentPage : BasePage
 
     public async Task FillOutAddAdjustmentForm(string dataFilename)
     {
-        //Select Company:  BLUEPAYTEST
-        await Page.Locator("#Adjust_comp_select").SelectOptionAsync(new[] { "45" });
-        
+
         var companyData = await _dataFileHelper.Load<AddAdjustment>(dataFilename);
         
         //Fill in Adjustment Details 
+        await Page.Locator("#Adjust_comp_select").SelectOptionAsync(new[] {companyData.CompanyId});
         await Page.FillAsync("#term_id", companyData.TerminalId!);  
         await Page.FillAsync("#addAdjust_amount", companyData.Amount!);
         await Page.FillAsync("#addAdjust_transRef", companyData.TransactionReference!);

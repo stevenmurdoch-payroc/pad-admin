@@ -22,12 +22,9 @@ public class SearchPaymentsPage : BasePage
 
     public async Task FillOutSearchPaymentsPage(string dataFilename)
     {
-        //Select Company:  BLUEPAYTEST
-        
-        await Page.Locator("#comp_select").SelectOptionAsync(new[] { "45" });
-        
+
         var companyData = await _dataFileHelper.Load<SearchPayments>(dataFilename);
-        
+        await Page.Locator("#comp_select").SelectOptionAsync(new[] {companyData.CompanyId});
         await Page.FillAsync("#term_id", companyData.TerminalId); 
         await Page.FillAsync("#transSearch_amount", companyData.Amount);
         await Page.FillAsync("#transSearch_insertDate", companyData.InsertDate);

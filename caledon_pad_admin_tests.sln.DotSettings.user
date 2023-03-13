@@ -18,6 +18,10 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::0B9C639A-4973-4129-9904-4CF4589EEF73::net6.0::caledon_pad_admin_tests.Features.AdjustmentsFeature.AddAnAdjustment&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::0B9C639A-4973-4129-9904-4CF4589EEF73::net6.0::caledon_pad_admin_tests.Features.MerchantFeature.EditAMerchant&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::0B9C639A-4973-4129-9904-4CF4589EEF73::net6.0::caledon_pad_admin_tests.Features.SearchPaymentFeature.SearchPayments&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::0B9C639A-4973-4129-9904-4CF4589EEF73::net6.0::caledon_pad_admin_tests.Features.SearchPendingPaymentFeature.SearchPendingPayments&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::0B9C639A-4973-4129-9904-4CF4589EEF73::net6.0::caledon_pad_admin_tests.Features.AdjustmentsFeature.ViewAnAdjustment&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::0B9C639A-4973-4129-9904-4CF4589EEF73::net6.0::caledon_pad_admin_tests.Features.CompanyFeature.EditACompany&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d8a19a37_002Df593_002D49dd_002D938e_002D42506ddc2505/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="User can log into Transaction Lookup with valid credentials" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;

@@ -23,11 +23,9 @@ public class ViewAdjustmentPage : BasePage
 
     public async Task FillOutViewAdjustmentForm(string dataFilename)
     {
-        //Select Company:  BLUEPAYTEST
-        await Page.Locator("#comp_select").SelectOptionAsync(new[] { "45" });
-        
+
         var companyData = await _dataFileHelper.Load<ViewAdjustment>(dataFilename);
-        
+        await Page.Locator("#comp_select").SelectOptionAsync(new[] {companyData.CompanyId});
         //Fill in Adjustment Details 
         await Page.FillAsync("#term_id", companyData.TerminalId!);  
         await Page.FillAsync("#viewAdjust_amount", companyData.Amount!);

@@ -23,12 +23,11 @@ public class EditCompanyPage : BasePage
     public async Task FillOutEditCompanyForm(string dataFilename)
     {
         //Select Company:  ABCTEST
-        await Page.Locator("#editComp_compId_select").SelectOptionAsync(new[] { "57" });
-        
-                var companyData = await _dataFileHelper.Load<EditCompany>(dataFilename);
+
+        var companyData = await _dataFileHelper.Load<EditCompany>(dataFilename);
         
         //Fill in Company Details 
-        
+        await Page.Locator("#editComp_compId_select").SelectOptionAsync(new[] {companyData.CompanyId});
         var rnd = new Random();
         var randombankid = rnd.Next(1, 100); // creates a number between 1 and 1000
         await Page.FillAsync("#editComp_compName", companyData.CompanyName!);  

@@ -12,7 +12,6 @@ Feature: Company
     And submits the Add Company request
     Then the Add Company confirmation message is displayed 
     
-    @wip-specify-company-via-datafile
 	Scenario: Edit a Company
 		When the user navigates to the Edit Company Page 
 		And the user fills out the Edit Company Page

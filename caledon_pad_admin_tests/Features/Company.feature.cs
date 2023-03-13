@@ -143,14 +143,12 @@ namespace caledon_pad_admin_tests.Features
         [Xunit.SkippableFactAttribute(DisplayName="Edit a Company")]
         [Xunit.TraitAttribute("FeatureTitle", "Company")]
         [Xunit.TraitAttribute("Description", "Edit a Company")]
-        [Xunit.TraitAttribute("Category", "wip-specify-company-via-datafile")]
         public virtual void EditACompany()
         {
-            string[] tagsOfScenario = new string[] {
-                    "wip-specify-company-via-datafile"};
+            string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Edit a Company", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 16
+#line 15
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -173,20 +171,20 @@ namespace caledon_pad_admin_tests.Features
 #line 4
  this.FeatureBackground();
 #line hidden
-#line 17
+#line 16
   testRunner.When("the user navigates to the Edit Company Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
                 TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                             "dataFile"});
                 table4.AddRow(new string[] {
                             "editcompany1.json"});
-#line 18
+#line 17
   testRunner.And("the user fills out the Edit Company Page", ((string)(null)), table4, "And ");
 #line hidden
-#line 21
+#line 20
   testRunner.And("submits the Edit Company request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 22
+#line 21
   testRunner.Then("the Edit Company confirmation message is displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

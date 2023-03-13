@@ -22,15 +22,12 @@ public class EditMerchantPage : BasePage
 
     public async Task FillOutEditMerchantForm(string dataFilename)
     {
-        //Select Company:  ABCTEST
-        await Page.Locator("#editMerch_compId").SelectOptionAsync(new[] { "57" });
-        
         var companyData = await _dataFileHelper.Load<EditMerchant>(dataFilename);
         
         var rnd = new Random();
         var randombankid = rnd.Next(1, 100); // creates a number between 1 and 1000
         
-        //Select Merchant: SPEC1000
+        await Page.Locator("#editMerch_compId").SelectOptionAsync(new[] {companyData.CompanyId});
         await Page.FillAsync("#editMerch_termId", companyData.TerminalId);
         await Page.FillAsync("#editMerch_description",companyData.Description);
         await Page.FillAsync("#editMerch_bankId",companyData.BankId!); 
@@ -59,10 +56,6 @@ public class EditMerchantPage : BasePage
 
     public async Task ConfirmAddedMerchantMessage()
     {
-        
-        await Page.PauseAsync();
-        
-        
         await Page.ScreenshotAsync(new PageScreenshotOptions
             { Path = _screenshotHelper.ScreenShotFilePath("edit_merchant_confirmation.png") });
 

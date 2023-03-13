@@ -18,16 +18,14 @@ public class SearchPendingPaymentsPage : BasePage
         _screenshotHelper = screenshotHelper;
     }
 
-    protected override string PagePath => "/cgi-bin/padpayment/search_payment.cgi";
+    protected override string PagePath => "/cgi-bin/padpayment/search_pending_payment.cgi";
 
     public async Task FillOutSearchPendingPaymentsPage(string dataFilename)
     {
-        //Select Company:  BLUEPAYTEST
-        
-        await Page.Locator("#comp_select").SelectOptionAsync(new[] { "45" });
         
         var companyData = await _dataFileHelper.Load<SearchPayments>(dataFilename);
         
+        await Page.Locator("#comp_select").SelectOptionAsync(new[] {companyData.CompanyId});
         await Page.FillAsync("#term_id", companyData.TerminalId); 
         await Page.FillAsync("#transSearch_amount", companyData.Amount);
         await Page.FillAsync("#transSearch_insertDate", companyData.InsertDate);

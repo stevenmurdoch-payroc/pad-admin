@@ -2,6 +2,7 @@ namespace caledon_pad_admin_tests.Helpers;
 
 public class EditMerchant
 {
+    public string? CompanyId { get; set; }
     public string? TerminalId { get; set; }
     public string? Description { get; set; }
     public string? BankId { get; set; }
